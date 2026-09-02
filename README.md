@@ -7,12 +7,22 @@ Desktop app that turns deeds and legal descriptions into plotted metes-and-bound
 The source is meant to be shared. There is no credits page inside the app
 for that — this file is the place.
 
-PyQt6 is used here under a **paid commercial license**. That purchase is
-only for the author. It is not in this folder, and it does not transfer to
-anyone else.
+**Deed Plotter is AGPL-3.0.** That is the license that matches
+**PyMuPDF**, which turns deed PDFs into images. You are not selling
+the app, so you do not need a paid Artifex license. Other people who
+change and share the program keep it AGPL too. The full text is in
+`LICENSE`.
 
-Other people who run the code from source need their own PyQt6: either
-Riverbank’s free GPL terms, or a commercial license they buy themselves.
+**PyQt6** is used here under a **paid commercial license**. That
+purchase is only for the author. It is not in this folder, and it
+does not transfer to anyone else.
+
+Other people who run the code from source need their own PyQt6:
+either Riverbank’s free GPL terms, or a commercial license they buy
+themselves.
+
+The other libraries (Pillow, pyqtgraph, ezdxf) are ordinary
+permissive licenses.
 
 Do not publish a Cursor API key, `~/.deed_plotter` (jobs, history, page/parse
 cache), a PyQt license file / key, `tests/`, `Samples/`, leftover
