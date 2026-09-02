@@ -1,0 +1,49 @@
+# Nested other project (never this repo)
+Health/
+
+# Tests (local only — not part of the shared repo)
+tests/
+
+# Local deed scans / exports (never commit real instruments)
+Samples/
+*.pdf
+*.dpjob
+*.dxf
+LegalDescriptions_boundary.dxf
+
+# Local screenshots / theme scratch
+_theme_*.png
+_user_details*.png
+
+# Jobs, history, and caches live in ~/.deed_plotter (not this folder).
+# Ignore copies if anyone drops them here.
+workspace.json
+history.json
+.env
+.env.*
+
+# Local-only (not in the public tree) — same split as Credential Manager
+audit/
+Architecture.md
+Change-Log.md
+Failed-to-hold-water.md
+AI_PARSE_PROMPT_POLICY.md
+
+# Editor / agent local
+.cursor/
+*.tmp
+crash_log.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Nuitka / packaging leftovers
+dist_nuitka/
+dist/
+build/
+_BUILD_TMP_*.py
+*.spec
